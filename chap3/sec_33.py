@@ -1,7 +1,7 @@
 count = int(input())
 num_list = [int(i) for i in input().split()]
 flag = 1
-count = 0
+loop_count = 0
 
 while flag:
     flag = 0
