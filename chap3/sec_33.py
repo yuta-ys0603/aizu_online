@@ -13,7 +13,7 @@ while flag:
             num_list[i - 1] = v
 
             flag = 1
-            count += 1
+            loop_count += 1
 
 maped_list = map(str, num_list)
 print(' '.join(maped_list))
