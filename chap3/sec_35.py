@@ -35,8 +35,9 @@ def isStable(num_list,sorted_list):
             for a in range(0,N):
                 for b in range(a+1,N):
                     if num_list[i][1] == num_list[j][1] and num_list[i] == sorted_list[b] and num_list[j] == sorted_list[a]:
-                        print("Not Stable")
+                        print("Not stable")
                         flag = 0
+                        return 
     if flag:
         print("Stable")
 
@@ -51,7 +52,7 @@ selection_list = SelectionSort(count,selection_list)
 
 print(' '.join(map(str,bubble_list)))
 isStable(num_list,bubble_list)
-print(' '.join(map(str, num_list)))
+print(' '.join(map(str, selection_list)))
 isStable(num_list,selection_list)
 
 

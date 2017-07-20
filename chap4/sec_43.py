@@ -1,4 +1,5 @@
 count, qms = map(int, input().split())
+# for 一度でいい
 process_list = [[i for i in input().split()] for j in range(count)]
 finished_list = []
 time = 0
