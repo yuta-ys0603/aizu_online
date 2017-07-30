@@ -10,7 +10,7 @@ def pertition(A, p, r):
 
 n = int(input())
 A = list(map(int,input().split()))
-idx = pertition(A, 0, n - 1)
+idx = pertition(A, 0, n-1)
 
 for i in range(n):
     if i == n - 1:
